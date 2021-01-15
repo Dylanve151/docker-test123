@@ -8,4 +8,3 @@ docker build --name="" --restart="always" --volume="/etc/localtime:/etc/localtim
 
 ### Optional:
 
-## Example of CRONTIME definition:
