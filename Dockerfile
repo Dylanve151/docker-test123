@@ -8,5 +8,4 @@ WORKDIR /root
 COPY startup.sh .
 RUN touch log.log
 RUN chmod 755 *.sh
-RUN chmod 755 *.bash
 CMD [ "/root/startup.sh" ]
